@@ -1,0 +1,38 @@
+#weatherbg {
+  background: url("https://snipboard.io/zxPSlm.jpg");
+  height: 650px;
+  width: 100%;
+  color: white;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.title{
+    
+    text-align: center;
+}
+.weatherResultBox {
+    margin-top: 3rem;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherTemp {
+  font-size: 35px;
+}
+
+.weathercity {
+  font-size: 55px;
+}
+
+.weatherIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: 0.5rem;
+}
